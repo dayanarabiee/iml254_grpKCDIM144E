@@ -518,6 +518,17 @@ nextUpdate.setMonth(lastUpdated.getMonth() + 2);
 
 document.getElementById('last-updated').textContent = lastUpdated.toLocaleDateString();
 
+function filterProducts(skinType) {
+    var cards = document.querySelectorAll('.card-content');
+    cards.forEach(function(card) {
+        if (skinType === 'all' || card.getAttribute('data-skin-type') === skinType) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+       });
+   }
+
 </script>
 
 </footer>
