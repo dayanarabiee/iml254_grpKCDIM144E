@@ -476,7 +476,6 @@
 
 
 
-</footer>
 
 </body>
 </html>
@@ -486,44 +485,32 @@
 </div>
 
 <script>
-    function showLargeImage() {
-        var modal = document.getElementById("modal");
-        modal.style.display = "block";
-    }
 
-    function closeModal() {
-        var modal = document.getElementById("modal");
-        modal.style.display = "none";
-    }
+function showLargeImage() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "block";
+}
 
-    let text = document.lastModified;
-    document.getElementById("demo").innerHTML = text;
+function closeModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
 
-    //Producto a favoritos
-    $('.card .aFavs').click(function(){
-        $(this).parents('.card').toggleClass('esFav');
-    });
+{let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;}
+</script>
 
-    //Producto al carrito
-    $('.card .alCarrito').click(function(){
-        $(this).parents('.card').toggleClass('enCarrito');
-    });
 
-    // Filter products based on skin type
-    function filterProducts(skinType) {
-        var cards = document.querySelectorAll('.card-content');
-        cards.forEach(function(card) {
-            if (skinType === 'all' || card.getAttribute('data-skin-type') === skinType) {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-        var buttons = document.querySelectorAll('.filter-button');
-        buttons.forEach(function(button) {
-            button.classList.remove('active');
-        });
-        event.target.classList.add('active');
+<script>
+function showLargeImage() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
 
 const lastUpdated = new Date('2024-06-25'); 
 const nextUpdate = new Date(lastUpdated);
@@ -532,5 +519,7 @@ nextUpdate.setMonth(lastUpdated.getMonth() + 2);
 document.getElementById('last-updated').textContent = lastUpdated.toLocaleDateString();
 
 </script>
+
+</footer>
 </body>
 </html>
