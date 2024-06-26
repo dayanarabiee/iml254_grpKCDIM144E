@@ -1,0 +1,289 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title> Homepage </title>
+<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="explore-door" id="exploreDoor">
+<video autoplay loop muted playsinline class="back-video">
+<source src="resources-3/video/glow_care1.mp4" type="video/mp4">
+</video>
+
+<div class="explore-content">
+<button class="explore-button" onclick="enterWebsite()"><a>Explore</a></button>
+</div>
+</div>
+
+<div id="mainContent" class="main-content" style="display: none;">
+<div class="header">
+<div class="logo" id="logo">
+<a href="#default"><img src="resources/image/company-logo2.png" id="logo-image" onclick="showLargeImage()"></a>
+</div>
+
+<div class="modal" id="modal">
+<span class="close" onclick="closeModal()">&times;</span>
+<img class="modal-content" id="large-image" src="resources/image/company-logo2.png">
+</div>
+
+<div class="header-right">
+    <a href="index.html">Homepage</a>
+    <a href="about-us.html">About Us</a>
+    <div class="dropdown">
+   	<button class="dropbtn"> Skincare Brand
+    <i class="fa fa-caret-down" style="color:black"></i>
+   </button>
+  <div class="dropdown-content">
+   <a href="wardah.html"> Wardah </a>
+   <a href="aiken.html"> Aiken </a> 
+   <a href="beauty-of-joseon.html"> Beauty of Joseon </a>
+   <a href="mary-kay.html"> Mary Kay </a> 
+   <a href="hada-labo.html"> Hada Labo </a>
+   <a href="skinmade.html"> Skinmade </a> 
+   <a href="cosrx.html"> COSRX </a>
+   <a href="skin1004.html"> Skin1004 </a> 
+   <a href="safi.html"> Safi </a>
+   <a href="alia.html"> Alia </a> 
+   <a href="skintific.html"> Skintific </a> 
+  </div>
+  </div>
+    <a href="skin-type.html"> Skin Type </a> 
+    <a href="faq.html">FAQ</a>
+    <a href="contact-us.html"> Contact Us </a> 
+  </div>
+</div>
+
+<br><br>
+
+<div class="video-container">
+  <video id="video" autoplay loop muted playsinline>
+    <source src="resources-3/video/product-intro.mp4" type="video/mp4" />
+  </video>
+  <img id="sound-toggle" class="sound-icon" src="resources/icon/mute.jpg" alt="Mute/Unmute">
+</div>
+
+<br><br>
+<br><br>
+
+<section class="top picks">
+  <p class="title"> Popular Choice 
+ </p>
+ 
+ <br><br>
+ <br><br>
+ <br><br>
+
+  
+ <div class="picture-slider">
+   <span style="--i:1;"><a href="skinmade.html"><img src="resources-3/image/skinmade/skinmade2.png" alt="Skinmade Tinted Sunscreen"></a></span>
+   <span style="--i:2;"><a href="cosrx.html"><img src="resources/image/cosrx/102.png" alt="COSRX Repairing Essence"></a></span>
+  <span style="--i:3;"><a href="aiken.html"><img src="resources-2/image/aiken/61.jpg" alt="Aiken Moisturiser"></a></span>
+  <span style="--i:4;"><a href="wardah.html"><img src="resources-3/image/wardah/88.png" alt="Wardah Day Cream"></a></span>
+  <span style="--i:5;"><a href="cosrx.html"><img src="resources/image/cosrx/106.png" alt="CROSX Gel Cleanser"></a></span> 
+  <span style="--i:6;"><a href="skin1004.html"><img src="resources-2/image/skin1004/139.png" alt="Skin1004 Cleansing Oil"></a></span> 
+  <span style="--i:7;"><a href="skintific.html"><img src="resources-3/image/skintific/skintific1.png" alt="Skintific Moisturizer Gel"></a></span>
+  <span style="--i:8;"><a href="skintific.html"><img src="resources-3/image/skintific/skintific8.png" alt="Skintific Mugwort Clay Stick"></a></span>
+  </div>
+
+ </section>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="resources/image/banner1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="resources/image/banner2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="resources/image/banner3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="resources/image/banner4.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+ <br><br>
+ <br><br>
+
+
+<p class="title"> Our Recomendations
+</p>
+
+
+<div class= "gallery">
+<div class= "content">
+<a href="skinmade.html">
+<img src= "resources-3/image/skinmade/skinmade10.png" class="image">
+</a>
+<h3>GRAPE SEED OIL + SQUALANE NOURISHING CLEANSING OIL</h3>
+<h6>RM 70.49</h6>
+</div>
+
+<div class= "content">
+<a href="cosrx.html">
+<img src="resources/image/cosrx/100.png" class="image">
+</a>
+<h3>COSRX AHABHA TREATMENT TONER </h3>
+<h6>RM 29.90</h6>
+</div>
+
+
+<div class= "content">
+<a href="skin1004.html">
+<img src= "resources-2/image/skin1004/148.png" class="image">
+</a>
+<h3>CENTELLA AMPOULE</h3>
+<h6>RM 69.30</h6>
+</div>
+
+<div class= "content">
+<a href="alia.html">
+<img src= "resources-2/image/alia/alia1.png" class="image">
+</a>
+<h3>TEA TREE MOISTURE</h3>
+<h6>RM 19.0</h6>
+</div>
+
+
+<div class= "content">
+<a href="cosrx.html">
+<img src= "resources/image/cosrx/110.png" class="image">
+</a>
+<h3> OIL-FREE ULTRA MOISTURIZING LOTION (WITH BIRCH SAP) </h3>
+<h6>RM 100.00 </h6>
+</div>
+
+<div class= "content">
+<a href="hada-labo.html">
+<img src= "resources-3/image/hadalabo/hada-labo2.png" class="image">
+</a>
+<h3>AGING CARE CREAM</h3>
+<h6>RM 69.50</h6>
+</div>
+
+
+<div class= "content">
+<a href="skintific.html">
+<img src= "resources-3/image/skintific/skintific9.png" class="image">
+</a>
+<h3>ALASKA VOLCANO PORE CLAY STICK</h3>
+<h6>RM 44.00</h6>
+</div>
+</div>
+
+<br><br>
+
+<footer class="icons">
+  <p><b> Follow us on: </b>
+    <a href="https://www.instagram.com/glowww_careee?igsh=MWxnZGpvaWRwamxocA==" target="_blank"> 
+      <i class="ri-instagram-line"></i>
+    </a>
+    <a href="https://www.tiktok.com/@glowwcaree?_t=8mVCjTurhKM&_r=1" target="_blank"> 
+      <i class="ri-tiktok-line"></i>
+    </a>
+  </p>
+
+<br>
+    <b><p>Disclaimer:</b> This website is not the official website of GlowCare. This website was developed for the purpose of learning XHTML & CSS.</p>
+
+<br>
+   <p>&copy; 2024 GlowCare. All rights reserved.</p>
+<br>
+<p>Last updated: <span id="last-updated"></span></p>
+</footer>
+
+
+<script>
+
+function enterWebsite() {
+    document.getElementById('exploreDoor').classList.add('hidden');
+    setTimeout(() => {
+        document.getElementById('exploreDoor').style.display = 'none';
+        document.getElementById('mainContent').style.display = 'block';
+    }, 500); 
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) { slideIndex = 1; }
+  if (n < 1) { slideIndex = slides.length; }
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+}
+
+function showLargeImage() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
+
+
+{let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;}
+</script>
+
+<div class="scroll-down">
+  <a href="#"><i class="ri-arrow-up-circle-line"></i></a>
+</div>
+<script>
+
+function showLargeImage() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
+
+document.getElementById('sound-toggle').addEventListener('click', function() {
+  var video = document.getElementById('video');
+  var soundToggle = document.getElementById('sound-toggle');
+
+  if (video.muted) {
+    video.muted = false;
+    soundToggle.src = 'resources/icon/unmute.webp'; // Change to unmute icon
+  } else {
+    video.muted = true;
+    soundToggle.src = 'resources/icon/mute.jpg'; // Change to mute icon
+  }
+});
+
+const lastUpdated = new Date('2024-06-25'); 
+const nextUpdate = new Date(lastUpdated);
+nextUpdate.setMonth(lastUpdated.getMonth() + 2);
+
+document.getElementById('last-updated').textContent = lastUpdated.toLocaleDateString();
+
+
+</script>
+
+
+</footer>
+</body>
+</html>

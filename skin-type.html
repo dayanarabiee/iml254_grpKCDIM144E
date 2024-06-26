@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skin Type</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="logo" id="logo">
+        <a href="#default"><img src="resources/image/company-logo2.png" id="logo-image" onclick="showLargeImage()"></a>
+    </div>
+    
+    <div class="modal" id="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="large-image" src="resources/image/company-logo2.png">
+    </div>
+    
+    <div class="header-right">
+        <a href="index.html">Homepage</a>
+        <a href="about-us.html">About Us</a>
+        <div class="dropdown">
+            <button class="dropbtn"> Skincare Brand
+                <i class="fa fa-caret-down" style="color:black"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="wardah.html"> Wardah </a>
+                <a href="aiken.html"> Aiken </a> 
+                <a href="beauty-of-joseon.html"> Beauty of Joseon </a> 
+                <a href="mary-kay.html"> Mary Kay </a> 
+                <a href="hada-labo.html"> Hada Labo </a>
+                <a href="skinmade.html"> Skinmade </a> 
+                <a href="cosrx.html"> COSRX </a>
+                <a href="skin1004.html"> Skin1004 </a> 
+                <a href="safi.html"> Safi </a>
+                <a href="alia.html"> Alia </a> 
+                <a href="skintific.html"> Skintific </a> 
+            </div>
+        </div>
+        <a href="skin-type.html"> Skin Type </a> 
+        <a href="faq.html">FAQ</a>
+        <a href="contact-us.html"> Contact Us </a> 
+    </div>
+</div>
+
+<p class="title"> Skin Type </p>
+
+<header>
+    <div class="filter-bar">
+        <button class="filter-button" onclick="filterProducts('all')">All</button>
+        <button class="filter-button" onclick="filterProducts('oily')">Oily Skin</button>
+        <button class="filter-button" onclick="filterProducts('dry')">Dry Skin</button>
+        <button class="filter-button" onclick="filterProducts('sensitive')">Sensitive Skin</button>
+        <button class="filter-button" onclick="filterProducts('combination')">Combination Skin</button>
+        <button class="filter-button" onclick="filterProducts('normal')">Normal Skin</button>
+    </div>
+</header>
+
+       <div class="pic-container-row">
+        <div class="card-content" data-skin-type="oily">
+            <div class="pic-container">
+                <div class="pic-card-face face-2">
+                    <div class="top-part">
+                        <div class="top-header">
+                            <h3 class="text-heading hide">POREMIZING DEEP CLEANSING FOAM</h3>
+                            <a class="wish hide">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                        <ul class="text-content hide">
+                            <li>This all in one facial cleanser, infused with Hymalayan Pink salt, is a deeply exfoliating cleanser</li>
+                            <li>Helps deeply cleanse waste from pores</li>
+                        </ul>
+                        <div class="color-wrap hide">
+                            <div class="image"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-image-wrapper">
+                    <div class="product-image">
+                        <img src="resources-2/image/skin/oily1.png" alt="POREMIZING DEEP CLEANSING FOAM" class="product" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pic-container-row">
+            <div class="card-content" data-skin-type="oily">
+                <div class="pic-container">
+                    <div class="pic-card-face face-2">
+                        <div class="top-part">
+                            <div class="top-header">
+                                <h3 class="text-heading hide">Red Bean Water Gel</h3>
+                                <a class="wish hide">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <ul class="text-content hide">
+                                <li>Red bean extract and a blend of three peptides, synergize to boost hydration and skin health</li>
+                            </ul>
+                            <div class="color-wrap hide">
+                                <div class="image"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-image-wrapper">
+                        <div class="product-image">
+                            <img src="resources-2/image/skin/oily2.png" alt="Red Bean Water Gel" class="product" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+      <div class="pic-container-row">
+      <div class="card-content" data-skin-type="oily">
+          <div class="pic-container">
+              <div class="pic-card-face face-2">
+                  <div class="top-part">
+                      <div class="top-header">
+                          <h3 class="text-heading hide">Matte Sun Stick : Mugwort+Camelia (SPF 50+ PA++++)</h3>
+                          <a class="wish hide">
+                              <i class="far fa-heart"></i>
+                          </a>
+                      </div>
+                      <ul class="text-content hide">
+                          <li>Our sun stick utilizes a sebum-control silica powder to regulate oil production</li>
+                          <li>It is a matte sun stick without any of the oily or sticky feelings</li>
+                      </ul>
+                      <div class="color-wrap hide">
+                          <div class="image"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="product-image-wrapper">
+                  <div class="product-image">
+                      <img src="resources-2/image/skin/4.png" alt="Matte Sun Stick : Mugwort+Camelia (SPF 50+ PA++++)" class="product" />
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+<div class="pic-container-row">
+  <div class="card-content" data-skin-type="dry">
+      <div class="pic-container">
+          <div class="pic-card-face face-2">
+              <div class="top-part">
+                  <div class="top-header">
+                      <h3 class="text-heading hide">HYDRATING FACE WASH</h3>
+                      <a class="wish hide">
+                          <i class="far fa-heart"></i>
+                      </a>
+                  </div>
+                  <ul class="text-content hide">
+                      <li>Medium and Large Hyaluronic Acid restore and preserve skin’s natural moisture</li>
+                      <li>pH balanced formula that's gentle on skin</li>
+                  </ul>
+                  <div class="color-wrap hide">
+                      <div class="image"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="product-image-wrapper">
+              <div class="product-image">
+                <img src="resources-2/image/skin/dry1.png" alt="HYDRATING FACE WASH" class="product" />
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="pic-container-row">
+      <div class="card-content" data-skin-type="dry">
+          <div class="pic-container">
+              <div class="pic-card-face face-2">
+                  <div class="top-part">
+                      <div class="top-header">
+                          <h3 class="text-heading hide">DYNASTY CREAM</h3>
+                          <a class="wish hide">
+                              <i class="far fa-heart"></i>
+                          </a>
+                      </div>
+                      <ul class="text-content hide">
+                          <li>Long-lasting moisture</li>
+                          <li>Provides a gentle, glowy finish</li>
+                      </ul>
+                      <div class="color-wrap hide">
+                          <div class="image"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="product-image-wrapper">
+                  <div class="product-image">
+                      <img src="resources-2/image/skin/dry2.png" alt="DYNASTY CREAM" class="product" />
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+
+
+<div class="pic-container-row">
+<div class="card-content" data-skin-type="dry">
+    <div class="pic-container">
+        <div class="pic-card-face face-2">
+            <div class="top-part">
+                <div class="top-header">
+                    <h3 class="text-heading hide">Aloe Soothing Sun Cream SPF50+/ PA+++</h3>
+                    <a class="wish hide">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+                <ul class="text-content hide">
+                    <li>Daily soothing sunblock is so lightweight that is feels like a moisturizer</li>
+                    <li>Soothes & moisturizes skin</li>
+                </ul>
+                <div class="color-wrap hide">
+                    <div class="image"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-image-wrapper">
+            <div class="product-image">
+                <img src="resources-2/image/skin/11.png" alt="Aloe Soothing Sun Cream SPF50+/ PA+++" class="product" />
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="pic-container-row">
+    <div class="card-content" data-skin-type="sensitive">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">RESVERATROL & Q10 + EGCG SERUM</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li>Brightens & revives, visibly restore skin youthfulness.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/sensitive1.png" alt=">RESVERATROL & Q10 + EGCG SERUM" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content" data-skin-type="sensitive">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide"> SENSITIVE SKIN HYDRATING CREAM</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li>Hydrates and soothes redness while strengthening and repairing its natural defenses.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/sensitive2.png" alt="SENSITIVE SKIN HYDRATING CREAM" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content" data-skin-type="sensitive">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">PREBIOTIIC HYDRA PLUS 5% PREBIOTIC</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li>Enhances skin barrier function and repairs damaged skin by 56%^</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/sensitive3.png" alt="PREBIOTIIC HYDRA PLUS 5% PREBIOTIC" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pic-container-row">
+    <div class="card-content" data-skin-type="combination">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">5% AHA/BHA EXFOLIATING TONER</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li>Balances skin microbiomes, strengthens skin barrier</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/combonition1.png" alt="5% AHA/BHA EXFOLIATING TONER" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content" data-skin-type="combination">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">HYDRA ROSE MOISTURE RICH NIGHT GEL</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li>Moisturizes the skin for up to 72 hours </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/combination2.png" alt="HYDRA ROSE MOISTURE RICH NIGHT GEL" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content" data-skin-type="combination">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">5X CERAMIDE SERUM SUNSCREEN SPF+++</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li>Improve and restore skin barrier.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/combonition3.png" alt="5X CERAMIDE SERUM SUNSCREEN SPF+++" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pic-container-row">
+    <div class="card-content" data-skin-type="normal">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">10% NIACINAMIDE SERUM</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li> Brighten quickly, remove acne scars and sun burning scars.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/normal1.png" alt="10% NIACINAMIDE SERUM" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content" data-skin-type="normal">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">WHITENING DAY MOISTURISER SPF30</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li>Reduce the appearance of discoloration, moisture barrier for brighter, flawlessly translucent skin tone. </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/normal2.png" alt="WHITENING DAY MOISTURISER SPF30" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content" data-skin-type="normal">
+        <div class="pic-container">
+            <div class="pic-card-face face-2">
+                <div class="top-part">
+                    <div class="top-header">
+                        <h3 class="text-heading hide">5X CERAMIDE LOW PH CLEANSER</h3>
+                        <a class="wish hide">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+                    <ul class="text-content hide">
+                        <li> Maintain moisture and restore the health of skin barrier.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-image-wrapper">
+                <div class="product-image">
+                    <img src="resources-2/image/skin/normal3.png" alt="5X CERAMIDE LOW PH CLEANSER" class="product" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+</main>
+
+
+<<footer class="icons">
+  <p><b> Follow us on: </b>
+    <a href="https://www.instagram.com/glowww_careee?igsh=MWxnZGpvaWRwamxocA==" target="_blank"> 
+      <i class="ri-instagram-line"></i>
+    </a>
+    <a href="https://www.tiktok.com/@glowwcaree?_t=8mVCjTurhKM&_r=1" target="_blank"> 
+      <i class="ri-tiktok-line"></i>
+    </a>
+  </p>
+
+<br>
+    <b><p>Disclaimer:</b> This website is not the official website of GlowCare. This website was developed for the purpose of learning XHTML & CSS.</p>
+
+<br>
+   <p>&copy; 2024 GlowCare. All rights reserved.</p>
+<br>
+<p>Last updated: <span id="last-updated"></span></p>
+</footer>
+
+
+
+</footer>
+
+</body>
+</html>
+
+<div class="scroll-down">
+    <a href="#"><i class="ri-arrow-up-circle-line"></i></a>
+</div>
+
+<script>
+    function showLargeImage() {
+        var modal = document.getElementById("modal");
+        modal.style.display = "block";
+    }
+
+    function closeModal() {
+        var modal = document.getElementById("modal");
+        modal.style.display = "none";
+    }
+
+    let text = document.lastModified;
+    document.getElementById("demo").innerHTML = text;
+
+    //Producto a favoritos
+    $('.card .aFavs').click(function(){
+        $(this).parents('.card').toggleClass('esFav');
+    });
+
+    //Producto al carrito
+    $('.card .alCarrito').click(function(){
+        $(this).parents('.card').toggleClass('enCarrito');
+    });
+
+    // Filter products based on skin type
+    function filterProducts(skinType) {
+        var cards = document.querySelectorAll('.card-content');
+        cards.forEach(function(card) {
+            if (skinType === 'all' || card.getAttribute('data-skin-type') === skinType) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+        var buttons = document.querySelectorAll('.filter-button');
+        buttons.forEach(function(button) {
+            button.classList.remove('active');
+        });
+        event.target.classList.add('active');
+
+const lastUpdated = new Date('2024-06-25'); 
+const nextUpdate = new Date(lastUpdated);
+nextUpdate.setMonth(lastUpdated.getMonth() + 2);
+
+document.getElementById('last-updated').textContent = lastUpdated.toLocaleDateString();
+
+
+    }
+</script>
+</body>
+</html>

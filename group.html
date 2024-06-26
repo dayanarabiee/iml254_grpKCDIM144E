@@ -1,0 +1,153 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<title> Group Members </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet"><link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="resources/css/style.css">
+</head>
+<body>
+
+<div class="header">
+<div class="logo" id="logo">
+  <a href="#default"><img src="resources/image/company-logo2.png" id="logo-image" onclick="showLargeImage()"></a>
+</div>
+
+<div class="modal" id="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="large-image" src="resources/image/company-logo2.png">
+</div>
+
+<div class="header-right">
+  <a href="index.html">Homepage</a>
+  <a href="about-us.html">About Us</a>
+  <div class="dropdown">
+   <button class="dropbtn"> Skincare Brand
+  <i class="fa fa-caret-down" style="color:black"></i>
+ </button>
+<div class="dropdown-content">
+ <a href="wardah.html"> Wardah </a>
+ <a href="aiken.html"> Aiken </a> 
+ <a href="beauty-of-joseon.html"> Beauty of Joseon </a>
+ <a href="mary-kay.html"> Mary Kay </a> 
+ <a href="hada-labo.html"> Hada Labo </a>
+ <a href="skinmade.html"> Skinmade </a> 
+ <a href="cosrx.html"> COSRX </a>
+ <a href="skin1004.html"> Skin1004 </a> 
+ <a href="safi.html"> Safi </a>
+ <a href="alia.html"> Alia </a> 
+ <a href="skintific.html"> Skintific </a> 
+</div>
+</div>
+  <a href="skin-type.html"> Skin Type </a> 
+  <a href="faq.html">FAQ</a>
+  <a href="contact-us.html"> Contact Us </a> 
+</div>
+</div>
+
+ <p class="title"> Group Members </p>
+<br>
+<div class="image-container">
+    <img src="resources/image/group-picture.jpg" alt="Group picture" class="centered-image">
+  </div>
+
+<br>
+
+<div class="shared-info">
+    <p class="subtitle-four"><b>Title:</b> Skincare Webiste </p>
+    <p class="subtitle-four"><b>Group:</b> KCDIM1444E</p>
+    <p class="subtitle-four"><b>Course Code:</b> IML254</p>
+    <p class="subtitle-four"><b>Course Name:</b> Introduction to Web Content Development</p>
+    <p class="subtitle-four"><b>Faculty:</b> College of Computing, Informatics and Mathematics</p>
+    <p class="subtitle-four"><b>Submission Date:</b> 27 June 2024</p>
+  </div>
+<br>
+  <div class="members">
+    <div class="member-card">
+      <img src="resources/image/aisyah2.png" alt="Member 1" class="member-image">
+      <p class="subtitle-two"><b>Name:</b> Siti Nur Aisyah binti Ridzuan</p>
+      <p class="subtitle-two"><b>Student ID:</b> 2022814118</p>
+    </div>
+    <div class="member-card">
+      <img src="resources/image/dayana2.png" alt="Member 2" class="member-image">
+      <p class="subtitle-two"><b>Name:</b> Dayana Batrisyia binti Mohd Rabiee</p>
+      <p class="subtitle-two"><b>Student ID:</b> 2022896288</p>
+    </div>
+    <div class="member-card">
+      <img src="resources/image/aisya2.png" alt="Member 2" class="member-image">
+      <p class="subtitle-two"><b>Name:</b> Aisyatullieza binti Abdullah</p>
+      <p class="subtitle-two"><b>Student ID:</b> 2022839028</p>
+    </div>
+    <div class="member-card">
+      <img src="resources/image/dina2.png" alt="Member 2" class="member-image">
+      <p class="subtitle-two"><b>Name:</b> Dina Batrisyia Mohd Zaidi</p>
+      <p class="subtitle-two"><b>Student ID:</b> 2022865422</p>
+    </div>
+  </div>
+
+<br><br>
+
+<footer class="icons">
+  <p><b> Follow us on: </b>
+    <a href="https://www.instagram.com/glowww_careee?igsh=MWxnZGpvaWRwamxocA==" target="_blank"> 
+      <i class="ri-instagram-line"></i>
+    </a>
+    <a href="https://www.tiktok.com/@glowwcaree?_t=8mVCjTurhKM&_r=1" target="_blank"> 
+      <i class="ri-tiktok-line"></i>
+    </a>
+  </p>
+
+<br>
+    <b><p>Disclaimer:</b> This website is not the official website of GlowCare. This website was developed for the purpose of learning XHTML & CSS.</p>
+
+<br>
+   <p>&copy; 2024 GlowCare. All rights reserved.</p>
+<br>
+<p>Last updated: <span id="last-updated"></span></p>
+</footer>
+
+<div class="scroll-down">
+  <a href="#"><i class="ri-arrow-up-circle-line"></i></a>
+</div>
+<script>
+
+function showLargeImage() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
+
+{let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;}
+</script>
+
+
+<script>
+function showLargeImage() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "block";
+}
+
+function closeModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
+
+const lastUpdated = new Date('2024-06-25'); 
+const nextUpdate = new Date(lastUpdated);
+nextUpdate.setMonth(lastUpdated.getMonth() + 2);
+
+document.getElementById('last-updated').textContent = lastUpdated.toLocaleDateString();
+
+</script>
+
+
+</footer>
+
+</body>
+</html>
